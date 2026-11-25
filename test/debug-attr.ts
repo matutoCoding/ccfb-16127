@@ -1,0 +1,13 @@
+import { generateSyntheticSequence, SYNTHETIC_IRIS_CASES } from '../src/synth/dataset';
+import { buildHdr } from '../src/hdr/pipeline';
+import { buildComparisonReport } from '../src/core/comparison';
+import { makeMask } from '../src/core/image';
+import { optimizeFixedPupil, fixedPupilFraction } from '../src/render/pupil';
+import { sequenceGeometry } from '../src/synth/dataset';
+const seq = generateSyntheticSequence(SYNTHETIC_IRIS_CASES[0], { size: 144, evs: [-2,-1,0,1,2] });
+const { capture } = buildHdr(seq.frames, { id:'c', patientId:'p', eye:'right' });
+const scheme = structuredClone(SYNTHETIC_IRIS_CASES[0].scheme);
+scheme.base.pigmentId='base-blue-deep'; scheme.fibers.pigmentId='fiber-navy'; scheme.collarette.pigmentId='collar-blue'; scheme.spots.pigmentId='spot-charcoal';
+const pup=optimizeFixedPupil(); scheme.fixedPupilMm=pup.fixedPupilMm; scheme.pupilFraction=fixedPupilFraction(pup.fixedPupilMm);
+const report = buildComparisonReport({ id:'r',patientId:'p',captureId:capture.id,schemeId:scheme.id,healthyHdr:capture.hdr,healthyMask:makeMask(144,144),geometry:sequenceGeometry(seq,scheme.pupilFraction),scheme,curve:capture.response,ev:0,deltaEThreshold:3,renderSize:144,now:1 });
+console.log('overall', report.overallAverageDeltaE, 'attributions', report.attributions.length);
