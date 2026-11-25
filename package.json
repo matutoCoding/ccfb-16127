@@ -1,0 +1,22 @@
+{
+  "name": "prosthetic-eye-color-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "定制义眼片配色与成像比对系统 · TypeScript + WebGPU · HDR 线性链路",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "verify": "tsx scripts/verify.ts",
+    "test": "tsx scripts/verify.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@webgpu/types": "^0.1.66",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.12"
+  }
+}

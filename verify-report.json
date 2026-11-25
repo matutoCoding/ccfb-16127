@@ -1,0 +1,244 @@
+{
+  "ok": true,
+  "hdrThresholdPct": 5,
+  "deThreshold": 3,
+  "eyes": [
+    {
+      "key": "dark-brown-clean",
+      "archetype": "深棕虹膜",
+      "kind": "固定机位组",
+      "hdrRelErrorPct": 0.6936950409344875,
+      "hdrMedianErrorPct": 0.5937528151221704,
+      "meanDeltaE": 0.581751408894714,
+      "maxBandDeltaE": 0.8223398857926789,
+      "bandDeltaE": [
+        0.8223398857926789,
+        0.15831730980758435,
+        0.3100158595853693,
+        0.3186302006984714,
+        0.7801723430972326,
+        0.779919979026513,
+        0.7084083911907932,
+        0.7762073019590693
+      ],
+      "sceneMeanDeltaE": [
+        {
+          "sceneId": "clinic",
+          "name": "诊室灯",
+          "de": 0
+        },
+        {
+          "sceneId": "daylight",
+          "name": "窗边日光",
+          "de": 0
+        },
+        {
+          "sceneId": "warm",
+          "name": "暖色室内灯",
+          "de": 0
+        },
+        {
+          "sceneId": "flash",
+          "name": "手机闪光灯",
+          "de": 0
+        }
+      ],
+      "alignBefore": 0.16957275390624998,
+      "alignAfter": 0.16957275390624998,
+      "offsetRecovered": true,
+      "gain": 2.394957409237858,
+      "message": "参与误差统计像素 20415"
+    },
+    {
+      "key": "hazel-amber-clean",
+      "archetype": "琥珀褐虹膜",
+      "kind": "固定机位组",
+      "hdrRelErrorPct": 1.1203265956152713,
+      "hdrMedianErrorPct": 0.9363236361723285,
+      "meanDeltaE": 1.7613326494664014,
+      "maxBandDeltaE": 3.4170780061617516,
+      "bandDeltaE": [
+        3.4170780061617516,
+        2.194491755720189,
+        2.5770081627326045,
+        1.7493916006723833,
+        0.17553690691318227,
+        0.35436001587449095,
+        1.536494308635182,
+        2.0863004390214264
+      ],
+      "sceneMeanDeltaE": [
+        {
+          "sceneId": "clinic",
+          "name": "诊室灯",
+          "de": 0
+        },
+        {
+          "sceneId": "daylight",
+          "name": "窗边日光",
+          "de": 0
+        },
+        {
+          "sceneId": "warm",
+          "name": "暖色室内灯",
+          "de": 0
+        },
+        {
+          "sceneId": "flash",
+          "name": "手机闪光灯",
+          "de": 0
+        }
+      ],
+      "alignBefore": 0.182197265625,
+      "alignAfter": 0.182197265625,
+      "offsetRecovered": true,
+      "gain": 5.2053674217677255,
+      "message": "参与误差统计像素 27106"
+    },
+    {
+      "key": "blue-gray-clean",
+      "archetype": "蓝灰虹膜",
+      "kind": "固定机位组",
+      "hdrRelErrorPct": 0.624896483425777,
+      "hdrMedianErrorPct": 0.5353370729096274,
+      "meanDeltaE": 0.2766741434782604,
+      "maxBandDeltaE": 1.072028306903467,
+      "bandDeltaE": [
+        1.072028306903467,
+        0.2331741522220488,
+        0,
+        0.5768176397555815,
+        0,
+        0,
+        0,
+        0.33137304894498587
+      ],
+      "sceneMeanDeltaE": [
+        {
+          "sceneId": "clinic",
+          "name": "诊室灯",
+          "de": 0
+        },
+        {
+          "sceneId": "daylight",
+          "name": "窗边日光",
+          "de": 0
+        },
+        {
+          "sceneId": "warm",
+          "name": "暖色室内灯",
+          "de": 0
+        },
+        {
+          "sceneId": "flash",
+          "name": "手机闪光灯",
+          "de": 0
+        }
+      ],
+      "alignBefore": 0.17927734374999998,
+      "alignAfter": 0.17927734374999998,
+      "offsetRecovered": true,
+      "gain": 4.594793419988136,
+      "message": "参与误差统计像素 20230"
+    },
+    {
+      "key": "green-clean",
+      "archetype": "绿褐虹膜",
+      "kind": "固定机位组",
+      "hdrRelErrorPct": 0.6997682917952558,
+      "hdrMedianErrorPct": 0.5905870352555382,
+      "meanDeltaE": 0.6648899792237156,
+      "maxBandDeltaE": 1.0945543975493217,
+      "bandDeltaE": [
+        0.8089229468912804,
+        1.0945543975493217,
+        0.5806453479347579,
+        0.7969610049536495,
+        0.2175578647266045,
+        0,
+        0.9889933446770516,
+        0.8314849270570593
+      ],
+      "sceneMeanDeltaE": [
+        {
+          "sceneId": "clinic",
+          "name": "诊室灯",
+          "de": 0
+        },
+        {
+          "sceneId": "daylight",
+          "name": "窗边日光",
+          "de": 0
+        },
+        {
+          "sceneId": "warm",
+          "name": "暖色室内灯",
+          "de": 0
+        },
+        {
+          "sceneId": "flash",
+          "name": "手机闪光灯",
+          "de": 0
+        }
+      ],
+      "alignBefore": 0.1852392578125,
+      "alignAfter": 0.1852392578125,
+      "offsetRecovered": true,
+      "gain": 4.500233938755235,
+      "message": "参与误差统计像素 26004"
+    },
+    {
+      "key": "dark-brown-shaky",
+      "archetype": "深棕虹膜",
+      "kind": "手抖对齐组",
+      "hdrRelErrorPct": 1.004929014745554,
+      "hdrMedianErrorPct": 0.9009421340251292,
+      "meanDeltaE": 0.5806620484186766,
+      "maxBandDeltaE": 0.8313834530494256,
+      "bandDeltaE": [
+        0.404940435617714,
+        0.6174050467709046,
+        0.3844056929556573,
+        0.3168639081595875,
+        0.6787771889858856,
+        0.7649814507674442,
+        0.6465392110427945,
+        0.8313834530494256
+      ],
+      "sceneMeanDeltaE": [
+        {
+          "sceneId": "clinic",
+          "name": "诊室灯",
+          "de": 0
+        },
+        {
+          "sceneId": "daylight",
+          "name": "窗边日光",
+          "de": 0
+        },
+        {
+          "sceneId": "warm",
+          "name": "暖色室内灯",
+          "de": 0
+        },
+        {
+          "sceneId": "flash",
+          "name": "手机闪光灯",
+          "de": 0
+        }
+      ],
+      "alignBefore": 0.23750732421875004,
+      "alignAfter": 0.18848131845069788,
+      "offsetRecovered": true,
+      "gain": 2.394957409237858,
+      "message": "参与误差统计像素 18851"
+    }
+  ],
+  "blownCorrectlyRejected": true,
+  "blownMessage": "整组照片全部过曝，虹膜没有可用中间调，HDR 无法恢复颜色，请降低曝光补拍。",
+  "overallHdrRelErrorPct": 0.8287230853032691,
+  "overallMeanDeltaE": 0.7730620458963535,
+  "failures": [],
+  "notes": [],
+  "generatedAt": "2026-11-25T00:56:37.566Z"
+}
